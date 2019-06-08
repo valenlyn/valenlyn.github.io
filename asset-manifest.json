@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "valenlyn.com/static/css/main.2cce8147.chunk.css",
+    "main.js": "valenlyn.com/static/js/main.8e6f5f21.chunk.js",
+    "main.js.map": "valenlyn.com/static/js/main.8e6f5f21.chunk.js.map",
+    "runtime~main.js": "valenlyn.com/static/js/runtime~main.fb96f880.js",
+    "runtime~main.js.map": "valenlyn.com/static/js/runtime~main.fb96f880.js.map",
+    "static/js/2.b41502e9.chunk.js": "valenlyn.com/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "valenlyn.com/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "valenlyn.com/index.html",
+    "precache-manifest.cb10856e985de49e834d107be089ef2c.js": "valenlyn.com/precache-manifest.cb10856e985de49e834d107be089ef2c.js",
+    "service-worker.js": "valenlyn.com/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "valenlyn.com/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "valenlyn.com/static/media/logo.5d5d9eef.svg"
+  }
+}
