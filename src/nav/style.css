@@ -1,4 +1,37 @@
 i {
 	color: black;
-	font-size: 48px !important;
+	font-size: 23px !important;
+	margin-top: 4px;
+	margin-right: 4px;
+}
+
+.brand-main {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
+}
+
+.nav-wrapper {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2em;
+	letter-spacing: 0.02em;
+	margin: 20px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	body {
+		background-color: lightblue;
+	}
+
+	.navbar-brand {
+		font-size: 1.2em !important;
+	}
+
+	.nav-link {
+		text-align: center;
+		margin: 10px;
+	}
 }
