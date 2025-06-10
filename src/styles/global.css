@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #4f9237;
+	--accent-dark: rgb(3, 99, 22);
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -30,7 +30,13 @@
 	font-style: normal;
 	font-display: swap;
 }
+html {
+	height: 100%;
+}
 body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
 	padding: 0;
@@ -44,6 +50,7 @@ body {
 	line-height: 1.7;
 }
 main {
+	flex: 1;
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
