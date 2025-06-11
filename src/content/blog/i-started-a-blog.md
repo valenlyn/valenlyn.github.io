@@ -1,0 +1,35 @@
+---
+title: 'I Started a Blog'
+description: 'On starting a blog in 2025.'
+pubDate: 'Jun 11 2025'
+heroImage: '../../assets/pigeons.jpeg'
+---
+
+There is a good and bad time to start a blog, depending on what you're trying to do with it. Last year, [Venkatesh Rao announced the retirement of his 17-year-old blog](https://www.ribbonfarm.com/2024/10/10/ribbonfarm-is-retiring), claiming that "end really is here for the blogosphere". [Xiaxue took hers down sometime in 2021 or 2022](https://web.archive.org/web/20210101000000*/xiaxue.sg). The internet's drowning in SEO-churned sludge, supercharged by LLMs. 
+
+And yet I've never wanted to blog more than I do right _now_. I haven't figured out the reasons why—I only know that I am excited to blog. If I had to guess, it's likely a coping mechanism of sorts; I reckon it isn't very unlike my desire to connect with my neighbours and uplift my community, amid raging wars and global suffering.
+
+- war → be kind to everyone i meet
+- TikTok, AI-generated articles → my personal blog for fun!
+- macro overwhelm → micro meaning 
+
+I also find it terrifying to have people read my writing. It's not that I'm afraid of being judged or thought of as cringe. (My self-esteem is very healthy, ego appropriately sized, and if I did have haters I would be ecstatic, I think, because I never was interesting enough to attract any.)
+
+I don't know how to put this in a non-woo way, but when you're reading my words, I feel responsible for the vibes that you receive from me. Isn't it so bizarre that I have write access to your brain right now? Doesn't it feel illegal when put this way? 
+
+A year (or so) ago I reviewed a LiveJournal I'd kept as a teen and was mortified when I realised, belatedly, that I had so many friends pay attention and leave supportive comments on my posts that only contained endless whining and grouching. I felt bad.
+
+Last November while nursing a fever, drifting in and out of sleep, I had been reading [Blonde](https://www.goodreads.com/book/show/357734) by Joyce Carol Oates.  It was a weird choice in hindsight—there I was, trying to feel better, while consuming this bleak portrait of someone else's unraveling. The worse Monroe's life got, the worse I felt. My fever surged to a record 39.5°C, and somewhere in that haze, I had an epiphany: why was I letting my mind stew in dread while my body was trying to heal? I switched gears and watched Kermit the Frog sing Rainbow Connection on loop. Might be a coincidence, but the fever broke not long after. 
+
+---
+
+This blog is an [Astro site](https://astro.build/) powered by [GitHub Pages](https://pages.github.com/). It literally took five minutes to set up and deploy. Absolutely mind-blowing. 🙀 I can't believe we have all these amazing tools for FREE! 
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,7 @@
 :root {
 	--accent: #4f9237;
 	--accent-dark: rgb(3, 99, 22);
+	--highlight: #fce356;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -96,6 +97,10 @@ p {
 }
 .prose p {
 	margin-bottom: 2em;
+}
+.prose a:hover {
+	color: var(--accent-dark);
+	background-color: var(--highlight);
 }
 textarea {
 	width: 100%;
