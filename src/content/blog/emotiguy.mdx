@@ -1,0 +1,52 @@
+---
+title: "I ❤️ Emotiguy"
+description: ""
+pubDate: "Jun 11 2025"
+heroImage: "https://res.cloudinary.com/water123/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1751383496/emotiguy-imma-freddy-evil.webp"
+heroImageCredit: "Header image by Reddit user <a href='https://www.reddit.com/user/Imma_Freddy_Evil/'>Imma_Freddy_Evil</a>"
+---
+
+import { Image } from "astro:assets";
+import awkward from "../../assets/awkward.gif";
+import awooga from "../../assets/awooga.gif";
+import theFinger from "../../assets/the-finger.gif";
+import theFingerBad from "../../assets/the-finger-bad.gif";
+import telegram from "../../assets/emotiguy-telegram.png"
+
+export function Box({ title, img, alt }) {
+  return (
+    <div style={{ margin: '4em 0', textAlign: 'center' }}>
+      <h4 style={{ margin: '0 0 1em 0' }}>{title}</h4>
+      <Image height={300} src={img} alt={alt || title} />
+    </div>
+  );
+}
+
+I was introduced to Emotiguy through a [Telegram sticker pack](https://t.me/addstickers/bttvffz) back in 2022. I was immediately obsessed.
+
+I especially love this one where he's smiling with all his teeth, eyes closed, and a palm over his left eye. His expression conveys a certain kind of lightness and glee that I've never seen any emoticon capture before.
+
+<Image height={300} src={telegram} alt="Emotiguy laughing" />
+
+Emotiguy is a [Daz3D](https://www.daz3d.com/emoticon-poses) character. (Daz3D is 3D‑content platform + software for creating and rendering 3D scenes.)
+
+You might also know him as:
+- Joe
+- Picardia
+- Thumbs Up Emoji Man
+- Yellow M&M
+
+A few weeks ago I discovered this YouTube video, [How to make EmotiGuy / Joe Memes in Blender](https://www.youtube.com/watch?v=fuGi_knr70k) by a fellow Emotiguy enthusiast, [Liam](https://duckwithsunglasses.com/portfolio/). I absorbed his tutorial and got to work immediately. 
+
+
+I'm lucky to have a bit of Blender experience from my brief infatuation with making 3D models (driven largely by the desire to get my money's worth from my M1 MacBook Pro purchase in late 2021). 
+
+<Box title="Emotiguy awkwardly waving hello" img={awkward} />
+
+<Box title="Awooga Emotiguy" img={awooga} />
+
+<Box title="Emotiguy giving the finger... wait no, he's giving thumbs up" img={theFinger} />
+
+<Box title="Emotiguy giving the finger" img={theFingerBad} />
+
+Thrilled that I'm contributing to the Corpus!

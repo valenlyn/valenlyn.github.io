@@ -8,7 +8,8 @@ import { Image } from "astro:assets";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, heroImageCredit } =
+  Astro.props;
 ---
 
 <html lang="en">
@@ -28,9 +29,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         width: calc(100% - 2em);
         max-width: 100%;
         margin: 0;
-      }
-      .hero-image {
-        width: 100%;
       }
       .hero-image img {
         display: block;
@@ -67,6 +65,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         font-size: 0.8em;
         color: rgb(var(--gray-light));
       }
+      .hero-image-wrapper {
+        max-width: 1020px;
+        margin: 0 auto 1em auto;
+        width: 100%;
+      }
+      .hero-image-credit {
+        font-size: 0.8em;
+        color: rgb(var(--gray));
+        margin-top: 0.15em;
+      }
     </style>
   </head>
 
@@ -74,10 +82,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <Header />
     <main>
       <article>
-        <div class="hero-image">
+        <div class="hero-image-wrapper">
           {
             heroImage && (
               <Image width={1020} height={510} src={heroImage} alt="" />
+            )
+          }
+          {
+            heroImageCredit && (
+              <div class="hero-image-credit" set:html={heroImageCredit} />
             )
           }
         </div>
