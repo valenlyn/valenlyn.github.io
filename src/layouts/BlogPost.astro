@@ -61,6 +61,7 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageCredit } =
         color: rgb(var(--gray));
       }
       .last-updated-on {
+        text-align: left;
         font-style: italic;
         font-size: 0.8em;
         color: rgb(var(--gray-light));
@@ -98,15 +99,15 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageCredit } =
           <div class="title">
             <div class="date">
               <FormattedDate date={pubDate} />
-              {
-                updatedDate && (
-                  <div class="last-updated-on">
-                    Last updated on <FormattedDate date={updatedDate} />
-                  </div>
-                )
-              }
             </div>
             <h1>{title}</h1>
+            {
+              updatedDate && (
+                <div class="last-updated-on">
+                  Last updated on <FormattedDate date={updatedDate} />
+                </div>
+              )
+            }
             <hr />
           </div>
           <slot />
